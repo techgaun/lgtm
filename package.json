@@ -1,0 +1,29 @@
+{
+  "name": "lgtm",
+  "version": "0.0.1",
+  "description": "A base CSS framework for everybody",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techgaun/lgtm.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "scss",
+    "html5",
+    "html",
+    "css3"
+  ],
+  "author": "techgaun",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/techgaun/lgtm/issues"
+  },
+  "homepage": "https://github.com/techgaun/lgtm#readme"
+}
