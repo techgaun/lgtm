@@ -40,7 +40,7 @@ gulp.task('serve', ['build'], () => {
     port: 3000,
     livereload: true
   })
-  gulp.watch(`${config.src}/scss/lgtm.scss`, ['sass'])
+  gulp.watch(`${config.src}/scss/*.scss`, ['sass'])
 })
 
 gulp.task('default', ['serve'])
