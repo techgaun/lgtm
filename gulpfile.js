@@ -34,6 +34,11 @@ gulp.task('build', (done) => {
   )
 })
 
+gulp.task('html', function () {
+  gulp.src('./index.html')
+    .pipe(connect.reload())
+})
+
 gulp.task('serve', ['build'], () => {
   connect.server({
     root: '.',
@@ -41,6 +46,7 @@ gulp.task('serve', ['build'], () => {
     livereload: true
   })
   gulp.watch(`${config.src}/scss/*.scss`, ['sass'])
+  gulp.watch('index.html', ['html'])
 })
 
 gulp.task('default', ['serve'])
